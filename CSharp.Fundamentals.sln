@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLINQOperatorsDemo", "KeyLINQOperatorsDemo\KeyLINQOperatorsDemo.csproj", "{34B1DCB8-1519-4E3E-9BB1-6B72F96AB470}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructsAndEnumDemo", "StructsDemo\StructsAndEnumDemo.csproj", "{62E49804-4F45-40E1-9C66-F9344D61A13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDemo", "StringDemo\StringDemo.csproj", "{1B007EA7-6225-414B-9FBD-834501ECCC1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{34B1DCB8-1519-4E3E-9BB1-6B72F96AB470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B1DCB8-1519-4E3E-9BB1-6B72F96AB470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B1DCB8-1519-4E3E-9BB1-6B72F96AB470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E49804-4F45-40E1-9C66-F9344D61A13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E49804-4F45-40E1-9C66-F9344D61A13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E49804-4F45-40E1-9C66-F9344D61A13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E49804-4F45-40E1-9C66-F9344D61A13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B007EA7-6225-414B-9FBD-834501ECCC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B007EA7-6225-414B-9FBD-834501ECCC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B007EA7-6225-414B-9FBD-834501ECCC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B007EA7-6225-414B-9FBD-834501ECCC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
