@@ -13,7 +13,7 @@ namespace ListDemo
 
         }
 
-        public void Worker()
+        public void WorkerDemo()
         {
             List<Person> people = new List<Person>();
 

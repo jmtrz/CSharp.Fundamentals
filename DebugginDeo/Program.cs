@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace RandomDemo
+namespace DebugginDeo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var random = new Random();
-            //var a = random.NextBytes;
+            Console.WriteLine("Hello World!");
         }
     }
 }
