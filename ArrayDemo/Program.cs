@@ -72,20 +72,30 @@ namespace ArrayDemo
             foreach (var n in numbers)
                 Console.WriteLine(n);
 
+            //Clear()
+            Array.Clear(numbers,0,2);
+            Console.WriteLine("effect of Clear()");
+            foreach (var item in numbers)
+                Console.WriteLine(item);
+
+            //copy()
+            int[] another = new int[3];
+            Console.WriteLine("effect of Copy()");
+            Array.Copy(numbers,another,3);
+            foreach (var item in another)
+                Console.WriteLine(item);
+
+            //Sort()
+            Console.WriteLine("effect of Sort()");
+            Array.Sort(another);
+            foreach (var item in numbers)        
+                Console.WriteLine();
+
             //Reverse()
+            Console.WriteLine("effect of reverse()");
             Array.Reverse(numbers);
-            Console.WriteLine("Effect of Reverse()");
-            foreach (var n in numbers)
-                Console.WriteLine(n);
-
-
+            foreach (var item in numbers)
+                Console.WriteLine(item);
         }
-
-        //#exmple 2 List
-        public void ListSample()
-        {
-
-        }
-        #endregion
     }
 }
