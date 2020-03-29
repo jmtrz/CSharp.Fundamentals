@@ -27,7 +27,15 @@ namespace StringDemo
                                     look into the following paths
                                     c:\\folder\\folder1\\folder2
                                     c:\folder3\folde4";
-            Console.WriteLine(text);
+            Console.WriteLine(textWithVerbatim);
+
+            string Name = "Lawrence";
+            for(int i=0;i<Name.Length;i++)
+            {
+               
+                Console.WriteLine(Name[i]);
+            }
+            
         }
     }
 }

@@ -4,18 +4,19 @@ namespace ReferenceAndValueTypesDemo
 {
     class Program
     {
+        public static string hello;
         static void Main(string[] args)
         {
 
             var a = 10;
             var b = a;
-
+            string hi = hello;
             b++;
             //Whats gonna be the value of a and b
             /*When you copy the value type into a variable the copy of 
              * that value is taken and stored in the target variable
             */
-            Console.WriteLine(string.Format("a:{0} b:{1}",a,b));
+            Console.WriteLine(string.Format("a:{0} b:{1}", a, b));
 
 
             var array1 = new int[3] { 1, 2, 3 };
@@ -28,6 +29,7 @@ namespace ReferenceAndValueTypesDemo
 
             Console.WriteLine(string.Format("a:{0} b:{1}", array1[0], array2[0]));
         }
+
     }
 
     public class Person
