@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace GenericsDemo
+namespace EventsDemo
 {
-    class Book : Product
+    public class Video
     {
-        public string Isbn { get; set; }
         public string Title { get; set; }
     }
 }

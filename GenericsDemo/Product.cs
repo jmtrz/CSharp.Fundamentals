@@ -4,9 +4,9 @@ using System.Text;
 
 namespace GenericsDemo
 {
-    class Book : Product
+    public class Product
     {
-        public string Isbn { get; set; }
-        public string Title { get; set; }
+        public string title { get; set; }
+        public float Price { get; set; }
     }
 }
